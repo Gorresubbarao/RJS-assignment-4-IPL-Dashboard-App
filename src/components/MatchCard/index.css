@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.match-card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background: #0f172a;
+  width: 40%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.team-img {
+  height: 80px;
+  width: 40px;
+}
+
+@media (min-width: 768px) {
+  .team-img {
+    height: 120px;
+    width: 50px;
+  }
+}
+
+.team-name-text {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.result-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .result-text {
+    font-size: 30px;
+  }
+}

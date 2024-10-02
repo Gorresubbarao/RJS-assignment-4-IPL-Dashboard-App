@@ -1,0 +1,42 @@
+/* Write your CSS here */
+
+.latest-match-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.latest-match-details-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-name {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.venue {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.team-logo {
+  height: 80px;
+  width: 36px;
+}
+
+@media (min-width: 768px) {
+  .team-logo {
+    height: 120px;
+    width: 56px;
+  }
+}

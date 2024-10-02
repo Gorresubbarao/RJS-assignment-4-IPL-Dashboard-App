@@ -1,0 +1,21 @@
+/* Write your CSS here */
+
+.not-fonud {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .not-fonud {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+.not-found-text {
+  color: #ffffff;
+  font-size: 25px;
+}

@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.teamitem {
+  list-style-type: none;
+  border-radius: 7px;
+  border: 1px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .teamitem {
+    height: 200px;
+  }
+}
+
+.team-img {
+  height: 100px;
+  width: 44px;
+}
+
+@media (min-width: 768px) {
+  .team-img {
+    height: 120px;
+    width: 65px;
+  }
+}
+
+.team-name-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768) {
+  .team-name-text {
+    font-size: 30px;
+  }
+}

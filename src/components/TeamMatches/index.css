@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.team-matches-container {
+  min-height: 100vh;
+  background-image: linear-gradient(#a4261d, #1e293b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.team-route-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 89%;
+  max-width: 620px;
+}
+
+@media (min-width: 768px) {
+  .team-route-content-container {
+    width: 90%;
+    max-width: 1120px;
+  }
+}
+
+.team-banner-img {
+  width: 100%;
+}
+
+.match-card-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.letest-matches-text {
+  color: #ffffff;
+  font-size: 26px;
+  text-align: left;
+}
